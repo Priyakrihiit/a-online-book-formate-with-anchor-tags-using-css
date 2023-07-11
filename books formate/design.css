@@ -1,0 +1,157 @@
+<style>
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+   
+   margin: 0%;
+   padding: 0%;
+   background-color: antiquewhite;
+}
+
+body nav{
+  background-color: rgb(17, 17, 17);
+ 
+  
+}
+body nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+body nav ul li{
+    display: inline;
+    padding: 5px;
+    margin: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+ 
+body nav ul li a{
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+}
+body nav ul li a:hover{
+    color: rgb(233, 11, 11);
+    background-color: rgb(216, 198, 96);
+    border-radius: 5px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+section div p{
+margin: 20px;
+padding: 2px;
+
+
+}
+.content a{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: large;
+    font-family: 'baloo bhai', cursive;
+}
+ .content a:hover{
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(39, 85, 12);
+    background-color: rgb(228, 174, 174);
+}
+
+
+
+ .heading{
+
+font-family: 'baloo bhai', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+padding: 70px;
+    margin: 30px;
+ }
+
+ .head{
+    
+    margin: 0%;
+padding: 0%;
+    font-family: 'baloo bhai', cursive;
+    color: rgb(243, 9, 146);
+    font-size: 75px;
+ }
+
+section div h4{
+
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(129, 112, 161);
+    font-size: smaller;
+
+}
+
+section div p{
+font-size: medium;
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+section span button{
+  
+background-color: rgb(199, 151, 89);
+border-color:2px solid black;
+border-radius: 10px;
+position: absolute;
+
+}
+section span button:hover{
+  
+    background-color: rgb(238, 202, 156);
+    border-color:2px solid rgb(184, 111, 111);
+    border-radius: 10px;
+    
+    }
+section span button a{
+    list-style-type: none;  
+    text-decoration: none;
+    color: black;
+font-size: larger;
+font-family: 'baloo bhai', cursive;
+}
+section span button a:hover{
+    list-style-type: none;  
+    text-decoration: none;
+    color: rgb(236, 8, 8);
+   
+font-size: larger;
+font-family: 'baloo bhai', cursive;
+border-color:2px solid rgb(238, 175, 175);
+border-radius: 10px;
+}
+   
+.next{
+    position: absolute;
+    bottom: 8%;
+    right: 0%;
+}
+
+.previous{
+    position: absolute;
+    bottom: 8%;
+    left: 0%;
+}
+
+
+footer{
+background-color: black;
+height: 5%;
+width: 100%;
+    color: white;
+    position: absolute;
+    bottom: 0%;
+    text-align: center;
+    justify-content: center;
+    
+}
+</style>
